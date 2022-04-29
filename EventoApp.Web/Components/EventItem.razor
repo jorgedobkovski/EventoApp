@@ -1,0 +1,37 @@
+﻿<MudCard>
+    <MudCardHeader>
+        <CardHeaderAvatar>
+            <MudAvatar Color="Color.Secondary">@Title?.Substring(0,1).ToUpper()</MudAvatar>
+        </CardHeaderAvatar>
+        <CardHeaderContent>
+            <MudText Typo="Typo.body1">@Title</MudText>
+        </CardHeaderContent>
+    </MudCardHeader>
+    <MudCardMedia Image="@Image" Height="250" />
+    <MudCardContent>
+        <MudText><b>Este é um componente parametrizado.</b></MudText>
+        <MudText Typo="Typo.body2">@Body</MudText>
+    </MudCardContent>
+    <MudCardActions>
+        <MudIconButton Icon="@Icons.Filled.EventAvailable" Color="Color.Default" />
+        <MudIconButton Icon="@Icons.Filled.ConfirmationNumber" Color="Color.Default" />
+        <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
+    </MudCardActions>
+</MudCard>
+
+@code {
+    [Parameter]
+    public string? ItemId { get; set; }
+
+    [Parameter]
+    public string? Title { get; set; }
+
+    [Parameter]
+    public string? Body { get; set; }
+
+    [Parameter]
+    public string? Localization { get; set; }
+
+    [Parameter]
+    public string? Image { get; set; }
+}

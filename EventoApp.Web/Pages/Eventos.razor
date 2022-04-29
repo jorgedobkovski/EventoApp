@@ -1,0 +1,39 @@
+﻿@page "/eventos"
+@using EventoApp.Web.Shared
+@inject HttpClient Http
+
+<PageTitle>App de eventos - Inicio</PageTitle>
+
+@if (events == null)
+{
+    <MudProgressCircular Color="Color.Primary" Indeterminate="true"/>
+}
+else
+{
+    <MudText Typo="Typo.h3" GutterBottom="true">
+        Próximos eventos em alta na sua região
+    </MudText>
+    <MudGrid>
+        @foreach (var item in events)
+        {
+            <MudItem sm="12" md="6" lg="4">
+                <EventItem
+                    ItemId="@item.Id.ToString()"
+                    Title="@item.Name" 
+                    Body="@item.Description">
+                </EventItem>
+            </MudItem>
+        }
+    </MudGrid>
+}
+
+
+@code {
+    Evento[]? events;
+
+    protected override async Task OnInitializedAsync()
+    {
+        events = await Http.GetFromJsonAsync<Evento[]>("api/Eventos");
+    }
+
+}

@@ -1,0 +1,42 @@
+﻿@page "/"
+
+@inject HttpClient Http
+
+<PageTitle>App de eventos - Inicio</PageTitle>
+
+@if (events == null)
+{
+    <MudProgressCircular Color="Color.Primary" Indeterminate="true"/>
+}
+else
+{
+    <MudText Typo="Typo.h3" GutterBottom="true">
+        Próximos eventos em alta na sua região
+    </MudText>
+
+    <MudGrid>
+        @foreach (var item in events) //busquei
+        {
+            <MudItem sm="12" md="6" lg="4">
+                <EventItem 
+                    ItemId="@item.Id"
+                    Title="@item.Name" 
+                    Body="@item.Description"
+                    Localization="@item.Localization"
+                    Image="@item.Image">
+                </EventItem>
+            </MudItem>
+        }
+    </MudGrid>
+}
+
+
+@code {
+    Event[]? events;
+
+    protected async override Task OnInitializedAsync()
+    {
+        events = await Http.GetFromJsonAsync<Event[]>("sample-data/eventos.json");
+    }
+
+}

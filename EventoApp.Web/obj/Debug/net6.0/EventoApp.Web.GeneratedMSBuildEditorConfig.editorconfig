@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = EventoApp.Web
+build_property.RootNamespace = EventoApp.Web
+build_property.ProjectDir = D:\Documentos\01. FACULDADE\Prova de ProgWeb\EventoApp\EventoApp.Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Documentos\01. FACULDADE\Prova de ProgWeb\EventoApp\EventoApp.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Documentos/01. FACULDADE/Prova de ProgWeb/EventoApp/EventoApp.Web/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/01. FACULDADE/Prova de ProgWeb/EventoApp/EventoApp.Web/Components/EventItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFdmVudEl0ZW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/01. FACULDADE/Prova de ProgWeb/EventoApp/EventoApp.Web/Pages/Bilheteria.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmlsaGV0ZXJpYS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/01. FACULDADE/Prova de ProgWeb/EventoApp/EventoApp.Web/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/01. FACULDADE/Prova de ProgWeb/EventoApp/EventoApp.Web/Pages/Eventos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/01. FACULDADE/Prova de ProgWeb/EventoApp/EventoApp.Web/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/01. FACULDADE/Prova de ProgWeb/EventoApp/EventoApp.Web/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/01. FACULDADE/Prova de ProgWeb/EventoApp/EventoApp.Web/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/01. FACULDADE/Prova de ProgWeb/EventoApp/EventoApp.Web/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/01. FACULDADE/Prova de ProgWeb/EventoApp/EventoApp.Web/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

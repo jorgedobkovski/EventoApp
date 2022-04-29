@@ -1,0 +1,27 @@
+﻿[
+  {
+    "name": "Batman",
+    "description": "Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. ",
+    "billing": "R$ 1.094.094.495,00"
+  },
+  {
+    "name": "JoJo's Bizarre Adventure: Diamonds Are Unbreakable",
+    "description": "Diamond Is Unbreakable é o primeiro filme live action de Jojo’s Bizarre Adventure, uma obra de mais de 30 anos que ainda tem mangá e anime em lançamento – além de grande popularidade em todo o mundo. ",
+    "billing": "R$ 984.193.455,00"
+  },
+  {
+    "name": "Blade Runner 2049",
+    "description": "Após descobrir um segredo que ameaça o que resta da sociedade, um novo policial parte em busca de Rick Deckard, que está desaparecido há 30 anos.",
+    "billing": "R$ 859.333.765,09"
+  },
+  {
+    "name": "Ilha do Medo",
+    "description": "Na década de 50, a fuga de uma assassina leva o detetive Teddy Daniels e seu parceiro a investigarem o seu desaparecimento de um quarto trancado em um hospital psiquiátrico.",
+    "billing": "R$ 780.344.125,00"
+  },
+  {
+    "name": "Duna",
+    "description": "Paul Atreides é um jovem brilhante, dono de um destino além de sua compreensão. Ele deve viajar para o planeta mais perigoso do universo para garantir o futuro de seu povu.",
+    "billing": "R$ 400.789.462,09"
+  }
+]

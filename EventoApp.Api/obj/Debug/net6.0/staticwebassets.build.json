@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UUa+I51IvJGNfz81uZW+AvJjg+lrrLPBUDBSlbvLpbQ=",
+  "Source": "EventoApp.Api",
+  "BasePath": "_content/EventoApp.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

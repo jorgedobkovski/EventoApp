@@ -1,0 +1,40 @@
+﻿@page "/bilheteria"
+
+@inject HttpClient Http
+@inject HttpClient httpClient
+@using System.Net.Http.Json
+
+<PageTitle>Bilheterias</PageTitle>
+
+    <MudText Typo="Typo.h3" GutterBottom="true">
+        Maiores bilheterias do momento na sua região
+    </MudText>
+
+
+        <MudTable Items="filmes" Hover="true">
+        <HeaderContent>
+            <MudTh>Filme</MudTh>
+            <MudTh>Sinopse</MudTh>
+            <MudTh>Bilheteria</MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd DataLabel="Filme">@context.Name</MudTd>
+            <MudTd DataLabel="Sinopse">@context.Description</MudTd>
+            <MudTd DataLabel="Vendas">@context.Billing</MudTd>
+        </RowTemplate>
+        <PagerContent>
+            <MudTablePager PageSizeOptions="new int[]{50, 100}" />
+        </PagerContent>
+    </MudTable>
+
+
+
+@code {
+    Filme[]? filmes;
+
+    protected async override Task OnInitializedAsync()
+    {
+        filmes = await Http.GetFromJsonAsync<Filme[]>("~/AppData\filmes.json");
+    }
+
+}
