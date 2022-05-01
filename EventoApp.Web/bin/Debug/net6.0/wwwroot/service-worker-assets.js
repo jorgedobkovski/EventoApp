@@ -853,19 +853,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-R0dKAoJ6rEMqB39saACO3LvGSq0JUzKp54nnkhXmQek=",
+      "hash": "sha256-am\/W3s0\/BHyOroJzRfGkNQJMMtz8xX0ZgpqrWdOlg2M=",
       "url": "_framework\/EventoApp.Core.dll"
     },
     {
-      "hash": "sha256-KHRdVr4pHlNsBtf6rAnshTXPTHDW65bKE7KqnAq8Ah4=",
+      "hash": "sha256-SwEwst1CLoEf0VpCT6X1bbrN85dMjJDr3dtf4H4g\/pQ=",
       "url": "_framework\/EventoApp.Core.pdb"
     },
     {
-      "hash": "sha256-Zm3wgzI2qrJKNlnP6pHwTsNf+dx87pOrauw8xVE5TEA=",
+      "hash": "sha256-5nrjvYwG8CwjNs3lP2xdH9qmtxpfRnZRqg\/M1n6y3cc=",
       "url": "_framework\/EventoApp.Web.dll"
     },
     {
-      "hash": "sha256-Bt93+OSrGJWzTsrW4tFBiIZFmAVBLm7I275vdcRtvl8=",
+      "hash": "sha256-\/DJHD5GRHImjhnl0OUaiTI0aJ7JGTlDcIf6DYzS8ffg=",
       "url": "_framework\/EventoApp.Web.pdb"
     },
     {
@@ -873,7 +873,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-cUTtKi2rYeoSviiwQw3vX6shV4M2qootWGsCTPBaMNE=",
+      "hash": "sha256-mgy1biA250DjXMV9JGsZwy89Pe88nYS4neWjb0UC3nQ=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -885,5 +885,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "lE+7ao1M"
+  "version": "MhNx8O0U"
 };

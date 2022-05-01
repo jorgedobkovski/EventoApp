@@ -1,5 +1,6 @@
 ﻿@page "/bilheteria"
 
+
 @inject HttpClient Http
 @inject HttpClient httpClient
 @using System.Net.Http.Json
@@ -7,9 +8,9 @@
 <PageTitle>Bilheterias</PageTitle>
 
     <MudText Typo="Typo.h3" GutterBottom="true">
-        Maiores bilheterias do momento na sua região
+        Em alta
     </MudText>
-
+    <MudText Class="mb-6">Sucessos nos cinemas da sua região.</MudText>
 
         <MudTable Items="filmes" Hover="true">
         <HeaderContent>
@@ -27,6 +28,8 @@
         </PagerContent>
     </MudTable>
 
+    <MudAlert Class="mt-6">Essa página mostra os dados de um arquivo JSON em formato de tabela.</MudAlert>
+
 
 
 @code {
@@ -34,7 +37,7 @@
 
     protected async override Task OnInitializedAsync()
     {
-        filmes = await Http.GetFromJsonAsync<Filme[]>("~/AppData\filmes.json");
+        filmes = await Http.GetFromJsonAsync<Filme[]>("/api/sample-data/filmes.json");
     }
 
 }

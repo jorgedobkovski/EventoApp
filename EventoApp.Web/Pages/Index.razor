@@ -3,40 +3,35 @@
 @inject HttpClient Http
 
 <PageTitle>App de eventos - Inicio</PageTitle>
+<MudText Typo="Typo.h3" GutterBottom="true">
+    Bem vindo(a)!
+</MudText>
+<MudText Class="mb-6">Fique por dentro dos eventos que estão acontecendo perto de você!</MudText>   
 
-@if (events == null)
-{
-    <MudProgressCircular Color="Color.Primary" Indeterminate="true"/>
-}
-else
-{
-    <MudText Typo="Typo.h3" GutterBottom="true">
-        Próximos eventos em alta na sua região
-    </MudText>
+<MudCarousel Class="mud-width-full" Style="height:720px;width:100%" ShowArrows="@arrows" ShowBullets="@bullets" AutoCycle="@autocycle" TData="object">
+    <MudCarouselItem Transition="transition" Color="@Color.Primary" Class="p-6">
+        <div class="d-flex justify-content-end align-content-end" style="flex-direction:column;height:720px;background:url(https://images.foxtv.com/static.foxla.com/www.foxla.com/content/uploads/2022/03/1280/720/GettyImages-1239508375.jpg?ve=1&tl=1)">
+            <MudText Typo="Typo.h3" Class="mt-6 ml-6">Doja Cat no Brasil</MudText>
+            <MudText Class="ml-6">Não perca uma data da turnê da rapper americana.</MudText>
+        </div>
+    </MudCarouselItem>
+    <MudCarouselItem Transition="transition" Color="@Color.Primary" Class="p-6">
+        <div class="d-flex" style="height:720px;background:url(https://i.ytimg.com/vi/nu973a3vFkM/maxresdefault.jpg)">
+            
+        </div>
+    </MudCarouselItem>
+    <MudCarouselItem Transition="transition" Color="@Color.Primary" Class="p-6">
+        <div class="d-flex justify-content-end align-content-end" style="flex-direction:column;height:720px;background:url(https://files.tecnoblog.net/wp-content/uploads/2021/04/overwatch-league-2020.jpg)">
+            <MudText Typo="Typo.h3" Class="mt-6 ml-6">Overwatch League 2022</MudText>
+            <MudText Class="ml-6">Não perca nenhum jogo da liga internacional de Overwatch.</MudText>
+        </div>
+    </MudCarouselItem>
+</MudCarousel>
 
-    <MudGrid>
-        @foreach (var item in events) //busquei
-        {
-            <MudItem sm="12" md="6" lg="4">
-                <EventItem 
-                    ItemId="@item.Id"
-                    Title="@item.Name" 
-                    Body="@item.Description"
-                    Localization="@item.Localization"
-                    Image="@item.Image">
-                </EventItem>
-            </MudItem>
-        }
-    </MudGrid>
-}
-
-
-@code {
-    Event[]? events;
-
-    protected async override Task OnInitializedAsync()
-    {
-        events = await Http.GetFromJsonAsync<Event[]>("sample-data/eventos.json");
-    }
-
+<MudAlert Class="mt-6">Essa é a página inicial de apresentação do projeto.</MudAlert>
+@code{ 
+    private bool arrows = true;
+    private bool bullets = true;
+    private bool autocycle = true;
+    private Transition transition = Transition.Slide;
 }

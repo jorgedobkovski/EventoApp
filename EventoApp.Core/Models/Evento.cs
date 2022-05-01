@@ -17,7 +17,7 @@ namespace EventoApp.Core.Models
         public string? Description { get; set; }
         public DateTimeOffset Inicio { get; set; }
         public DateTimeOffset Fim { get; set; }
-        public String? Image { get; set; }
+        public string? Image { get; set; }
 
 
     }
