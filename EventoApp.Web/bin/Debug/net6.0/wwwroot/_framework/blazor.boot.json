@@ -202,14 +202,14 @@
       "netstandard.dll": "sha256-W9cwgVmBZsddVw3WVFMC5Gya92UufvbVTNR4+u7pnR0=",
       "System.Private.CoreLib.dll": "sha256-KVnZkFos\/ML\/3S2isVijfmFZXO4zEQeCga6BZvGdTbY=",
       "EventoApp.Core.dll": "sha256-am\/W3s0\/BHyOroJzRfGkNQJMMtz8xX0ZgpqrWdOlg2M=",
-      "EventoApp.Web.dll": "sha256-8y9vGnNeQGGgdJ3NM7XZzNrT\/PC9zNubE8M3O6Pc7Yk="
+      "EventoApp.Web.dll": "sha256-mQ+jD+C703kbop0kIM9V+Vq4ZaCadvOU7ROwTm0tPDg="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "EventoApp.Core.pdb": "sha256-SwEwst1CLoEf0VpCT6X1bbrN85dMjJDr3dtf4H4g\/pQ=",
-      "EventoApp.Web.pdb": "sha256-oqDk75qYO5oG19xJoUvOqOD2WGgjfwZb1CvL9owqTK0="
+      "EventoApp.Web.pdb": "sha256-8sxTltXlWPPsmfx1RPZK+zxdeXBylzKsgMCT5Wp9YFc="
     },
     "runtime": {
       "dotnet.6.0.4.ux44mswrte.js": "sha256-WYno\/cK5MDsl5yi4T\/\/QgUskbBfhLL77i+c0uKzO9+c=",

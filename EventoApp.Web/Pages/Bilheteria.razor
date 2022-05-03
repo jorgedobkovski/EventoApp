@@ -37,7 +37,7 @@
 
     protected async override Task OnInitializedAsync()
     {
-        filmes = await Http.GetFromJsonAsync<Filme[]>("/api/sample-data/filmes.json");
+        filmes = await Http.GetFromJsonAsync<Filme[]>("https://localhost:5001/sample-data/filmes.json");
     }
 
 }

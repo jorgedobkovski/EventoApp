@@ -861,11 +861,11 @@
       "url": "_framework\/EventoApp.Core.pdb"
     },
     {
-      "hash": "sha256-5nrjvYwG8CwjNs3lP2xdH9qmtxpfRnZRqg\/M1n6y3cc=",
+      "hash": "sha256-VpYQyixKaktynrIeRINHewzD6735zIFav+AxVWgYI8U=",
       "url": "_framework\/EventoApp.Web.dll"
     },
     {
-      "hash": "sha256-\/DJHD5GRHImjhnl0OUaiTI0aJ7JGTlDcIf6DYzS8ffg=",
+      "hash": "sha256-PLkJaec0IjhQyOvareDUwH14gJ\/ear4yoLYxOf0pfU0=",
       "url": "_framework\/EventoApp.Web.pdb"
     },
     {
@@ -873,7 +873,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-mgy1biA250DjXMV9JGsZwy89Pe88nYS4neWjb0UC3nQ=",
+      "hash": "sha256-N6FoVrWztDq\/W9C3uSXXHkegCVtfra8YvZ1HJxYMsVc=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -885,5 +885,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "MhNx8O0U"
+  "version": "YErDKGIS"
 };
